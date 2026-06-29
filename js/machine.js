@@ -112,10 +112,40 @@ function drawReward() {
   // pick random reward
   const rewards = machineData.rewards;
 
-  const reward =
-    rewards[Math.floor(Math.random() * rewards.length)];
+const reward = rewards[Math.floor(Math.random() * rewards.length)];
 
-  document.getElementById("result").textContent = reward;
+setTimeout(() => {
+
+    const resultEl = document.getElementById("result");
+    resultEl.innerHTML = "";
+
+    const link = document.createElement("a");
+
+    link.textContent = reward.text;
+    link.href = reward.link;
+
+    link.style.color = "white";
+    link.style.fontSize = "24px";
+
+    resultEl.appendChild(link);
+
+}, 300);
+
+  const resultEl = document.getElementById("result");
+
+resultEl.innerHTML = "";
+
+// create clickable element
+const link = document.createElement("a");
+link.textContent = reward.text;
+link.href = reward.link;
+link.style.color = "white";
+link.style.textDecoration = "underline";
+
+// optional: open same tab or new tab
+// link.target = "_blank";
+
+resultEl.appendChild(link);
 
   updateRemaining();
 }
