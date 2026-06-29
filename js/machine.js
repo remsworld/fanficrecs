@@ -112,7 +112,8 @@ function drawReward() {
   // pick random reward
   const rewards = machineData.rewards;
 
-const reward = rewards[Math.floor(Math.random() * rewards.length)];
+const reward =
+    rewards[Math.floor(Math.random() * rewards.length)];
 
 setTimeout(() => {
 
@@ -121,6 +122,7 @@ setTimeout(() => {
 
     const link = document.createElement("a");
 
+    // use .text and .link ?
     link.textContent = reward.text;
     link.href = reward.link;
 
@@ -129,7 +131,7 @@ setTimeout(() => {
 
     resultEl.appendChild(link);
 
-}, 300);
+}, 500);
 
   const resultEl = document.getElementById("result");
 
