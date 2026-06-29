@@ -3,9 +3,18 @@
     "name": "Style Engine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+     {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
 
