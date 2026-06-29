@@ -7,10 +7,16 @@ const reel3 = document.getElementById("reel3");
 
 const spinBtn = document.getElementById("spinBtn");
 
+// Emoji symbols (visual only)
+const symbols = [
+    "🍒","🍋","🔔","⭐","💎","🍀",
+    "⚡","🔥","🌙","🧿","🎲","🪙","👁️"
+];
+
 spinBtn.addEventListener("click", spin);
 
 // -------------------------
-// FAIR RANDOM PICK
+// FAIR MACHINE PICK
 // -------------------------
 function pickMachine() {
     return Math.floor(Math.random() * MACHINE_COUNT) + 1;
@@ -30,46 +36,48 @@ function spin() {
 
     spinBtn.disabled = true;
 
-    // 1. Decide outcome FIRST (important for fairness)
+    // 1. Decide outcome FIRST (fair system)
     const result = pickMachine();
 
-    // 2. Add slight randomness to spin timing (feels more natural)
+    // 2. Staggered spin durations (feels more real)
     const t1 = 900 + Math.random() * 250;
     const t2 = 1300 + Math.random() * 250;
     const t3 = 1700 + Math.random() * 250;
 
-    // 3. Start spinning reels visually
+    // 3. Start spinning animation
     spinReel(reel1, t1);
     spinReel(reel2, t2);
     spinReel(reel3, t3);
 
-    // 4. Force final result after reels stop
+    // 4. Force final symbol after spin ends
     setTimeout(() => {
 
-        reel1.src = `images/machine${result}.png`;
-        reel2.src = `images/machine${result}.png`;
-        reel3.src = `images/machine${result}.png`;
+        const finalSymbol = symbols[result - 1];
+
+        reel1.textContent = finalSymbol;
+        reel2.textContent = finalSymbol;
+        reel3.textContent = finalSymbol;
 
     }, 1900);
 
-    // 5. Redirect after reveal
+    // 5. Redirect after reveal moment
     setTimeout(() => {
 
-        window.location.href = `machine.html?id=${result}`;
+        window.location.href =
+            `machine.html?id=${result}`;
 
     }, 2600);
 }
 
 // -------------------------
-// REEL ANIMATION STUFF 
+// REEL ANIMATION FUNCTION
 // -------------------------
 function spinReel(reel, duration) {
 
     const interval = setInterval(() => {
 
         const frame = randomFrame();
-
-        reel.src = `images/machine${frame}.png`;
+        reel.textContent = symbols[frame - 1];
 
     }, 70);
 
