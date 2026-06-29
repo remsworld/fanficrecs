@@ -1,0 +1,21 @@
+{
+  "1": {
+    "name": "Style Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+  "2": {
+    "name": "Creek Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Fragment A",
+      "Fragment B",
+      "Fragment C"
+    ]
+  }
+}
