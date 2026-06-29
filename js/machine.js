@@ -119,3 +119,12 @@ function drawReward() {
 
   updateRemaining();
 }
+
+
+fetch("rewards.json")
+  .then(res => res.json())
+  .then(data => {
+      console.log("LOADED JSON:", data);
+      console.log("REQUESTED MACHINE:", machineId);
+      console.log("FOUND:", data[machineId]);
+  });
