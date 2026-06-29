@@ -9,8 +9,118 @@
     ]
   },
 
-  "2": {
+    "2": {
     "name": "Creek Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "3": {
+    "name": "Kyman Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "4": {
+    "name": "Bunny Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "5": {
+    "name": "Stenny Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "6": {
+    "name": "K2 Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "7": {
+    "name": "Clyman Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "8": {
+    "name": "Clenny Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "9": {
+    "name": "Stutters Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "10": {
+    "name": "Cryle Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "11": {
+    "name": "Kenmien Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+    "12": {
+    "name": "Wentam Engine",
+    "dailyLimit": 3,
+    "rewards": [
+      "Red Token",
+      "Blue Token",
+      "Golden Token"
+    ]
+  },
+
+  "13": {
+    "name": "Stendy Engine",
     "dailyLimit": 3,
     "rewards": [
       "Fragment A",
