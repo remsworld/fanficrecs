@@ -1,5 +1,5 @@
 
-const MACHINE_COUNT = 13;
+const MACHINE_COUNT = 15;
 
 const reel1 = document.getElementById("reel1");
 const reel2 = document.getElementById("reel2");
