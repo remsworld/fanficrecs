@@ -136,5 +136,43 @@
       "Fragment B",
       "Fragment C"
     ]
+  },
+
+    "14": {
+    "name": "Crenny Engine",
+    "dailyLimit": 3,
+    "rewards": [
+     {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
+    ]
+  },
+
+    "15": {
+    "name": "Misc Rarepair Engine!",
+    "dailyLimit": 3,
+    "rewards": [
+     {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
+    ]
   }
 }
