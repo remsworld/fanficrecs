@@ -9,8 +9,9 @@ const spinBtn = document.getElementById("spinBtn");
 
 // Emoji symbols (visual only)
 const symbols = [
-    "🍒","🍋","🔔","⭐","💎","🍀",
-    "⚡","🔥","🌙","🧿","🎲","🪙","👁️"
+    "🧵","☕","💢","🐇","🍿","🍀",
+    "❄️","🫀","⚡","📚","🧿","🌸","🌷", 
+    "🚬", "☁️"
 ];
 
 spinBtn.addEventListener("click", spin);
