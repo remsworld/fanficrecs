@@ -126,7 +126,7 @@ setTimeout(() => {
     link.textContent = reward.text;
     link.href = reward.link;
 
-    link.style.color = "white";
+    link.style.color = "black";
     link.style.fontSize = "24px";
 
     resultEl.appendChild(link);
