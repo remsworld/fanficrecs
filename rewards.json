@@ -22,79 +22,158 @@
     "name": "Creek Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "3": {
     "name": "Kyman Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "4": {
     "name": "Bunny Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+     {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "5": {
     "name": "Stenny Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "6": {
     "name": "K2 Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "7": {
     "name": "Clyman Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "8": {
     "name": "Clenny Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+     {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "9": {
     "name": "Stutters Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
 
@@ -102,39 +181,78 @@
     "name": "Cryle Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "11": {
     "name": "Kenmien Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
     "12": {
     "name": "Wentam Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Red Token",
-      "Blue Token",
-      "Golden Token"
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
+
 
   "13": {
     "name": "Stendy Machine",
     "dailyLimit": 3,
     "rewards": [
-      "Fragment A",
-      "Fragment B",
-      "Fragment C"
+      {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      },
+       {
+        "text": "Red Token",
+        "link": "https://archiveofourown.org/users/S0uth_p3rk/pseuds/R4mbunct10usKl3pt0m4n1ac"
+      }
     ]
   },
 
