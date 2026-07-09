@@ -1,6 +1,6 @@
 {
   "1": {
-    "name": "Style Engine",
+    "name": "Style Machine",
     "dailyLimit": 3,
     "rewards": [
      {
@@ -19,7 +19,7 @@
   },
 
     "2": {
-    "name": "Creek Engine",
+    "name": "Creek Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -29,7 +29,7 @@
   },
 
     "3": {
-    "name": "Kyman Engine",
+    "name": "Kyman Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -39,7 +39,7 @@
   },
 
     "4": {
-    "name": "Bunny Engine",
+    "name": "Bunny Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -49,7 +49,7 @@
   },
 
     "5": {
-    "name": "Stenny Engine",
+    "name": "Stenny Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -59,7 +59,7 @@
   },
 
     "6": {
-    "name": "K2 Engine",
+    "name": "K2 Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -69,7 +69,7 @@
   },
 
     "7": {
-    "name": "Clyman Engine",
+    "name": "Clyman Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -79,7 +79,7 @@
   },
 
     "8": {
-    "name": "Clenny Engine",
+    "name": "Clenny Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -89,7 +89,7 @@
   },
 
     "9": {
-    "name": "Stutters Engine",
+    "name": "Stutters Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -99,7 +99,7 @@
   },
 
     "10": {
-    "name": "Cryle Engine",
+    "name": "Cryle Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -109,7 +109,7 @@
   },
 
     "11": {
-    "name": "Kenmien Engine",
+    "name": "Kenmien Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -119,7 +119,7 @@
   },
 
     "12": {
-    "name": "Wentam Engine",
+    "name": "Wentam Machine",
     "dailyLimit": 3,
     "rewards": [
       "Red Token",
@@ -129,7 +129,7 @@
   },
 
   "13": {
-    "name": "Stendy Engine",
+    "name": "Stendy Machine",
     "dailyLimit": 3,
     "rewards": [
       "Fragment A",
@@ -139,7 +139,7 @@
   },
 
     "14": {
-    "name": "Crenny Engine",
+    "name": "Crenny Machine",
     "dailyLimit": 3,
     "rewards": [
      {
@@ -158,7 +158,7 @@
   },
 
     "15": {
-    "name": "Misc Rarepair Engine!",
+    "name": "Misc Rarepair Machine!",
     "dailyLimit": 3,
     "rewards": [
      {
