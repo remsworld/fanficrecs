@@ -28,9 +28,69 @@ body{
     margin-top:10px;
 }
 
+    /* Fine Print Button */
+#finePrintBtn {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: transparent;
+  border: 1px solid #a9cade;
+  color: #a9cade;
+  font-family: monospace;
+  font-size: 10px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+/* Fine Print Popup */
+#finePrintPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  max-width: 90%;
+  max-height: 70vh;
+  overflow-y: auto;
+
+  background: #f5f1e8;
+  color: #111;
+  border: 2px solid #444;
+  padding: 20px;
+
+  display: none;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.4;
+  z-index: 1000;
+}
+
+#finePrintPopup.show {
+  display: block;
+}
+
 </style>
 </head>
 <body>
+    <button id="manualButton">
+  User Manual
+</button>
+    <div id="finePrintPopup">
+
+  <h2>User Manual</h2>
+
+  <p>
+    TESTING! 
+  </p>
+
+ 
+  </p>
+
+  <button id="closeManual">
+    Close
+  </button>
+
+</div>
 
 <h1 id="machine-title"></h1>
 
@@ -43,6 +103,38 @@ body{
 <script src="js/machine.js"></script>
 
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dd85cbdfc564b6c849f7ccd20161f1e"}'></script><!-- End Cloudflare Web Analytics -->
+<script>
 
+const manualButton =
+  document.getElementById("manualButton");
+
+const popup =
+  document.getElementById("finePrintPopup");
+
+const closeButton =
+  document.getElementById("closeManual");
+
+manualButton.addEventListener("click", () => {
+  popup.classList.add("show");
+});
+
+closeButton.addEventListener("click", () => {
+  popup.classList.remove("show");
+});
+
+    document.addEventListener("click", (event) => {
+
+  if (
+    popup.classList.contains("show") &&
+    !popup.contains(event.target) &&
+    event.target !== manualButton
+  ) {
+    popup.classList.remove("show");
+  }
+
+});
+
+</script>
+    
 </body>
 </html>
