@@ -133,21 +133,7 @@ setTimeout(() => {
 
 }, 500);
 
-  const resultEl = document.getElementById("result");
 
-resultEl.innerHTML = "";
-
-// create clickable element
-const link = document.createElement("a");
-link.textContent = reward.text;
-link.href = reward.link;
-link.style.color = "white";
-link.style.textDecoration = "underline";
-
-// optional: open same tab or new tab
-// link.target = "_blank";
-
-resultEl.appendChild(link);
 
   updateRemaining();
 }
