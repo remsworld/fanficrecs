@@ -76,9 +76,85 @@ button{
     }
 }
 
+     /* Fine Print Button :p*/
+#manualButton {
+  position: fixed !important;
+ top: 15px !important;
+  left: 15px !important;
+    z-index: 9999;
+  background: #11c2f7;
+  border: 1px solid #black;
+  color: black;
+  font-family: monospace;
+  font-size: 10px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+/* Fine Print Popup */
+#finePrintPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  max-width: 90%;
+  max-height: 70vh;
+  overflow-y: auto;
+
+  background: #f5f1e8;
+  color: #111;
+  border: 2px solid #444;
+  padding: 20px;
+
+  display: none;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.4;
+  z-index: 1000;
+}
+
+#finePrintPopup.show {
+  display: block;
+}
 </style>
 </head>
 <body>
+      <button id="manualButton">
+  User Manual
+</button>
+    <div id="finePrintPopup">
+
+  <h2>User Manual</h2>
+
+  <p>
+>This is an engine powered by community recommendations, not just management’s
+  </p>
+        <p>
+>All tags with NSFW will be marked with 'ꕥ', but please read the tags on all fics as that is the responsibility of the reader! 
+        </p>
+        <p>
+>If you are recommended a work that you suspect is AI, please contact management immediately for review @RLTelepath on twitter.
+        </p>
+        <p>
+>If you find your work here and wish to have it removed, please contact management.
+        </p>
+        <p>
+>Some fics recommended may contain dark themes. Management is not god, nor does management care what people do in their free time, nor is management reviewing every single fic submitted for recommendation. If you don’t like what you’re seeing, please reroll for a different story! 
+        </p>
+        <p>
+>Management recommends commenting on each fic you are given and actually read at least once. Management doesn’t make anything from this, and all I am asking is that you simply pay it forward in the form of appreciating the authors that help keep this community alive. 
+        </p>
+  </p>
+
+ 
+  </p>
+
+  <button id="closeManual">
+    Close
+  </button>
+
+</div>
 
 <div class="screen">
 
@@ -95,6 +171,37 @@ button{
 <script src="js/slot.js"></script>
 
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dd85cbdfc564b6c849f7ccd20161f1e"}'></script><!-- End Cloudflare Web Analytics -->
+<script>
 
+const manualButton =
+  document.getElementById("manualButton");
+
+const popup =
+  document.getElementById("finePrintPopup");
+
+const closeButton =
+  document.getElementById("closeManual");
+
+manualButton.addEventListener("click", () => {
+  popup.classList.add("show");
+});
+
+closeButton.addEventListener("click", () => {
+  popup.classList.remove("show");
+});
+
+    document.addEventListener("click", (event) => {
+
+  if (
+    popup.classList.contains("show") &&
+    !popup.contains(event.target) &&
+    event.target !== manualButton
+  ) {
+    popup.classList.remove("show");
+  }
+
+});
+
+</script>
 </body>
 </html>
