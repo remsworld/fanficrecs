@@ -7,7 +7,7 @@ const reel3 = document.getElementById("reel3");
 
 const spinBtn = document.getElementById("spinBtn");
 
-// Emoji symbols (visual only)
+//  emojis (switch over to pngs later MAYBE)
 const symbols = [
     "🧵","☕","💢","🐇","🍿","🍀",
     "❄️","🫀","⚡","📚","🧿","🌸","🌷", 
