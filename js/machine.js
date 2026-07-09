@@ -160,3 +160,8 @@ fetch("rewards.json")
       console.log("REQUESTED MACHINE:", machineId);
       console.log("FOUND:", data[machineId]);
   });
+
+
+fetch(
+  `https://slot-analytics.rem-eck17.workers.dev/track?event=machine_${machineId}_visit`
+);
