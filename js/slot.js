@@ -70,6 +70,10 @@ function spin() {
     }, 2600);
 }
 
+fetch(
+  "https://slot-analytics.rem-eck17.workers.dev/track?event=slot_spin"
+);
+
 // -------------------------
 // REEL ANIMATION FUNCTION
 // -------------------------
